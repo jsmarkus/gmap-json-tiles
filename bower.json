@@ -1,0 +1,24 @@
+{
+  "name": "google-tiles",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Mark Garnik <mark.garnik@toatech.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "geoJSON-to-Google-Maps": "git+https://github.com/JasonSanford/geojson-google-maps.git"
+  },
+  "devDependencies": {
+    "jquery": "~2.0.3",
+    "requirejs": "~2.1.9"
+  }
+}
